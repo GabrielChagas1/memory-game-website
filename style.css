@@ -96,3 +96,11 @@ button{
   cursor: pointer;
 }
 
+#stop{
+  font-size: 1.1em;
+  display: block;
+  margin: 1.1em auto 0 auto;
+  background: #000;
+  color: #fff;
+}
+
