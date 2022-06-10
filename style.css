@@ -88,3 +88,11 @@ body{
   background-color: #f4c531;
   top: 0;
 }
+
+button{
+  border: none;
+  border-radius: .3em;
+  padding: 1em 1.5em;
+  cursor: pointer;
+}
+
