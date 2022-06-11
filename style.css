@@ -37,3 +37,10 @@ body{
   font-weight: 600;
 }
 
+.card-container{
+  position: relative;
+  width: 6.25em;
+  height: 6.25em;
+  cursor: pointer;
+}
+
