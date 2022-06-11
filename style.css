@@ -64,3 +64,8 @@ body{
   font-weight: 600;
 }
 
+.card-after{
+  background-color: #fff;
+  transform: rotateY(180deg);
+}
+
