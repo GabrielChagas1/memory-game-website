@@ -29,3 +29,11 @@ body{
   gap: .6em;
 }
 
+.stats-container {
+  text-align: right;
+  margin-bottom: 1.2em;
+}
+.stats-container span {
+  font-weight: 600;
+}
+
