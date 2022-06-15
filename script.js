@@ -5,3 +5,6 @@ const stopButton = document.getElementById('stop');
 const gameContainer = document.querySelector('.game-container');
 const result = document.getElementById('result');
 const controls = document.querySelector('.controls-container');
+
+let cards, interval, firstCard = false,
+secondCard = false;
