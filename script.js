@@ -153,3 +153,13 @@ startButton.addEventListener("click", () => {
   moves.innerHTML = `<span>Moves:</span> ${movesCount}`;
   initializer();
 });
+//Stop game
+stopButton.addEventListener(
+  "click",
+  (stopGame = () => {
+    controls.classList.remove("hide");
+    stopButton.classList.add("hide");
+    startButton.classList.remove("hide");
+    clearInterval(interval);
+  })
+);
